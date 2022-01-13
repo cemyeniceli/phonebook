@@ -1,0 +1,15 @@
+GET http://localhost:3001/api/persons
+###
+GET http://localhost:3001/api/persons/3
+###
+GET http://localhost:3001/api/info
+###
+DELETE http://localhost:3001/api/persons/3
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Rex Yeniceli",
+    "number": "34-56-78"
+}
