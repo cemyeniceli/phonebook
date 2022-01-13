@@ -13,3 +13,11 @@ Content-Type: application/json
     "name": "Rex Yeniceli",
     "number": "34-56-78"
 }
+###
+POST https://ofs-phonebook.herokuapp.com/api/persons
+Content-Type: application/json
+
+{
+    "name": "Rex Yeniceli",
+    "number": "34-56-78"
+}
