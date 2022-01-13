@@ -10,6 +10,7 @@ morgan.token('dataSent', (req) => {
     return null
 })
 
+app.use(express.static('build'))
 app.use(cors())
 app.use(morgan(':method :url :status :res[content-length] - :response-time ms :dataSent'))
 app.use(express.json())
