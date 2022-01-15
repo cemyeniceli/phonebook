@@ -10,7 +10,7 @@ POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-    "name": "Rex Yeniceli",
+    "name": "Cem Yeniceli",
     "number": "34-56-78"
 }
 ###
@@ -18,7 +18,7 @@ POST https://ofs-phonebook.herokuapp.com/api/persons
 Content-Type: application/json
 
 {
-    "name": "Rex Yeniceli",
+    "name": "Cem Yeniceli",
     "number": "34-56-78"
 }
 ###
